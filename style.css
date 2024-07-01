@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items:center ;
+    text-align: center;
+    background-image: url(https://sqala.ma/wp-content/uploads/2021/04/Mosaic-La-Sqala-BG.png);
+    font-family: sans-serif;
+    color: #944127;
+}
+.LOGO {
+    margin-bottom: 25px;
+
+}
+/* .divider {
+    background-image: url(Mosaic-La-Sqala.png);
+    max-width: 100%;
+    vertical-align: top;
+    overflow-clip-margin: content-box; */
+}
+.name{
+    font-family: EB Garamond;
+    color: #186ab1
+}
+button {
+    transition: all .5s ease;
+    color: #186ab1;
+    border: 3px solid white;
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    background-color : transparent;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;}
+    button:hover {
+        color: #001F3F;
+        background-color: #186ab1;
+    }
+    .Events{
+        font-family:"Caveat Brush", cursive;
+    }
+    .contcat{
+        display: flex;
+        gap: 20vw;
+    }
+    input {
+        padding: 10px;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        color: #555;
+        outline: none;
+      }
+      
+      input {
+        border-color: #007bff;
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+      }
+form{
+    text-align: left;
+}   
+/* test nav */
