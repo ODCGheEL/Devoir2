@@ -1,52 +1,285 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css.css">
-</head>
-<body>
-    <!--Nos Carte section-->
-    <section class="carte">
-        <div>
-            <p id="resto_name">RESTAURANT - CAFÉ MAURE</p>
-            <h2 id="section_title">Nos cartes</h2>
-            <p id="food_type">Petit-déjeuner & Goûter</p>
-            <img src="https://sqala.ma/wp-content/uploads/2021/09/img-ptidej.jpg" alt="carte_img">
-            <p id="open_time"><strong>7J / 7, Petit-déjeuner : de 8h à 12h / Goûter : de 16h à 19h</strong></p>
-            <button>NOTRE CARTE</button>
-        </div>
-        <img src="https://sqala.ma/wp-content/uploads/2021/03/Calque-9-form-600x10.png" alt="divider">
-        <div>
-            <p id="food_type">Déjeuner & Dîner</p>
-            <img src="https://sqala.ma/wp-content/uploads/2021/09/img-dej.jpg" alt="carte_img">
-            <p id="open_time"><strong>7J / 7, Déjeuner et Dîner de Midi à 23h</strong></p>
-            <button>NOTRE CARTE</button>
-        </div>
-        <img src="https://sqala.ma/wp-content/uploads/2021/03/Calque-9-form-600x10.png" alt="divider">
-        <div>
-            <p id="food_type">Desserts & Boissons</p>
-            <img src="https://sqala.ma/wp-content/uploads/2021/09/img-boissons.jpg" alt="carte_img">
-            <p></p>
-            <button>NOTRE CARTE</button>
-        </div>
-        <img src="https://sqala.ma/wp-content/uploads/2021/03/Calque-9-form-600x10.png" alt="divider">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="script.js" />
+    <title>AL SQALA</title>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="logo">
+        <a href="/">
+          <img
+            src="https://sqala.ma/wp-content/uploads/2021/03/Sqala-logo-blue.png"
+            alt="logo"
+          />
+        </a>
+      </div>
+      <ul>
+        <li><a href="#home">Acceuil</a></li>
+        <li><a href="#carte">Cartes</a></li>
+        <li><a href="#RESERVATION">Events</a></li>
+        <li><a href="#gallery">Galerie</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </nav>
+    <div class="menubar">
+      <ul>
+        <li>
+          <a href="#">
+            <img
+              src="https://sqala.ma/wp-content/uploads/2021/03/Sqala-logo-blue.png"
+              alt=""
+              style="width: 200px"
+            />
+          </a>
+        </li>
+        <li>
+          <p>+212 522 26 09 60</p>
+        </li>
+        <li>
+          <p>Open: 08:00 am – 23:00 pm</p>
+        </li>
+        <li>
+          <p>Boulevard des Almohades, Casablanca 20250</p>
+        </li>
+      </ul>
+    </div>
+    <!-- Navbar -->
+    <img src="img\Mosaic-La-Sqala.png" alt="" class="mosaic" />
+    <section class="home" id="home">
+      <img
+        class="LOGO"
+        src="img\Sqala-logo-blue-300x220.png"
+        alt="La Sqala LOGO"
+      />
+      <h1 class="name">RESTAURANT - CAFÉ MAURE</h1>
+      <h3>
+        <strong
+          >Bienvenue à La Sqala, le Restaurant Café Maure, Monument de
+          Casablanca.</strong
+        >
+      </h3>
+      <p>
+        <strong>
+          Fondé en 2002 et situé derrière les remparts de l’ancienne médina
+          dans un bastion fortifié du XVII ème siècle,
+        </strong>
+        le restaurant-café maure est ouvert tous les jours de la semaine.
+      </p>
+      <p>
+        <strong>La Sqala</strong> propose une cuisine typiquement marocaine avec
+        des produits frais et de grande qualité ainsi qu’un espace de vie et
+        d’animations culturelles, où chacun peut profiter du somptueux jardin
+        andalou et assister à un récital de musique orientale.
+      </p>
+      <p>
+        <strong>La Sqala – Café Maure</strong> est dans tous les guides, elle
+        est devenue un lieu de rendez-vous incontournable pour les casablancais
+        et les touristes en quête de calme et de sérénité, au cœur du quartier
+        historique de la Medina de Casablanca.
+      </p>
+      <img src="img\img-Sqala.jpg" alt="La sqala image" />
     </section>
+    
+
+    
+
+    <img src="img\Mosaic-La-Sqala.png" alt="" class="mosaic" />
     <!--Nos Carte section-->
-    <!--Gallery-->
-    <section class="gallery">
+    <section class="carte" id="carte">
+      <div>
         <p id="resto_name">RESTAURANT - CAFÉ MAURE</p>
-        <p  id="section_title">Galerie</p>
-        <div id="gallery_img">
-            <img src="https://sqala.ma/wp-content/uploads/2021/03/P6.jpeg" alt="gal_img">
-            <img src="https://sqala.ma/wp-content/uploads/2021/03/P2.jpeg" alt="gal_img">
-            <img src="https://sqala.ma/wp-content/uploads/2021/03/ed9b193d-97ee-4bf1-8d5f-f579469dd1f2.jpeg" alt="gal_img   ">
-        </div>
+        <h2 id="section_title">Nos cartes</h2>
+        <p id="food_type">Petit-déjeuner & Goûter</p>
+        <img
+          src="https://sqala.ma/wp-content/uploads/2021/09/img-ptidej.jpg"
+          alt="carte_img"
+        />
+        <p id="open_time">
+          <strong
+            >7J / 7, Petit-déjeuner : de 8h à 12h / Goûter : de 16h à
+            19h</strong
+          >
+        </p>
+        <button>NOTRE CARTE</button>
+      </div>
+      <img
+        src="https://sqala.ma/wp-content/uploads/2021/03/Calque-9-form-600x10.png"
+        alt="divider"
+      />
+      <div>
+        <p id="food_type">Déjeuner & Dîner</p>
+        <img
+          src="https://sqala.ma/wp-content/uploads/2021/09/img-dej.jpg"
+          alt="carte_img"
+        />
+        <p id="open_time">
+          <strong>7J / 7, Déjeuner et Dîner de Midi à 23h</strong>
+        </p>
+        <button>NOTRE CARTE</button>
+      </div>
+      <img
+        src="https://sqala.ma/wp-content/uploads/2021/03/Calque-9-form-600x10.png"
+        alt="divider"
+      />
+      <div>
+        <p id="food_type">Desserts & Boissons</p>
+        <img
+          src="https://sqala.ma/wp-content/uploads/2021/09/img-boissons.jpg"
+          alt="carte_img"
+        />
+        <p></p>
+        <button>NOTRE CARTE</button>
+      </div>
+      <img
+        src="https://sqala.ma/wp-content/uploads/2021/03/Calque-9-form-600x10.png"
+        alt="divider"
+      />
+    </section>
+    <!--Nos Carte section-->
+    <img src="img\Mosaic-La-Sqala.png" alt="" class="mosaic" />
+    <!-- RESERVATION -->
+    <section id="RESERVATION">
+      <p>RÉSERVATIONS</p>
+      <h1 class="Events">Events & Privatisation</h1>
+      <img src="img\img-1-1024x682.png" alt="La sqala image" />
+      <p>
+        <strong>
+          La Sqala accueille vos conférences, rencontres d’affaires et évènements
+          familiaux.
+        </strong>
+      </p>
+      <a
+        href="https://sqala.ma/wp-content/uploads/2022/05/Plaquette-B2B-Sqala.pdf"
+        target="_blank"
+        ><button>BROUCHURE</button></a
+      >
+    </section>
+    <!-- RESERVATION -->
+
+    <!-- video -->
+    
+    <iframe
+      width="1200"
+      height="900"
+      src="https://www.youtube.com/embed/rdVmWBAwlvk"
+      title="YouTube Video"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <!-- video -->
+
+    <img src="img\Mosaic-La-Sqala.png" alt="" class="mosaic" />
+
+    <!--Gallery-->
+    <section class="gallery" id="gallery">
+      <p id="resto_name">RESTAURANT - CAFÉ MAURE</p>
+      <p id="section_title">Galerie</p>
+      <div id="gallery_img">
+        <img
+          src="https://sqala.ma/wp-content/uploads/2021/03/P6.jpeg"
+          alt="gal_img"
+        />
+        <img
+          src="https://sqala.ma/wp-content/uploads/2021/03/P2.jpeg"
+          alt="gal_img"
+        />
+        <img
+          src="https://sqala.ma/wp-content/uploads/2021/03/ed9b193d-97ee-4bf1-8d5f-f579469dd1f2.jpeg"
+          alt="gal_img   "
+        />
+      </div>
     </section>
     <!--Gallery-->
-</body>
+
+    <!-- Contact us-->
+    <section class="contcat" id="contact">
+      <div>
+        <h2 class="Events">Contactez-nous</h2>
+        <p>Besoin d’une réservation ?</p>
+        <p>N’hésitez pas à nous contacter au</p>
+        <p>+212 522 260 960</p>
+        <p>Boulevard des Almohades, Casablanca 20250</p>
+        <p>Open: 08:00 am – 23:00 pm</p>
+        <a href="tel:+212522260960"><button>NOUS APPELER</button></a>
+      </div>
+      <div>
+        <form action="">
+          <label for="name">Your Name</label><br />
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="name"
+          /><br />
+          <label for="email">Your Email</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="email"
+          /><br />
+          <label for="Subject">Subject</label><br />
+          <input
+            type="text"
+            id="Subject"
+            required
+            placeholder="Subject"
+          /><br />
+          <label for="texte">Your message (optional)</label><br />
+          <textarea
+            name="msg"
+            id="texte"
+            cols="50"
+            rows="15"
+            placeholder="contacter-nous"
+          ></textarea
+          ><br />
+          <button>Submit</button>
+        </form>
+      </div>
+    </section>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d207.6933383103863!2d-7.619233314714452!3d33.60288066607286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d286bded69f1%3A0x14366c0dc062234f!2sLa%20Sqala!5e0!3m2!1sfr!2sma!4v1616413037179!5m2!1sfr!2sma"
+      width="1500"
+      height="500"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+    ></iframe>
+    <!-- goto top button -->
+    <button id="go-to-top" title="Go to top">▲</button>
+    <!-- goto top button -->
+    <img src="img\Mosaic-La-Sqala.png" alt="" class="mosaic" />
+    <!-- footer -->
+    <footer>
+      <p>@2024 Sqala All Rights Reserved</p>
+      <img
+        src="https://sqala.ma/wp-content/uploads/2021/03/Sqala-logo-blue.png"
+        alt=""
+        class="footer-logo"
+      />
+      <p>Powered By ODC-AZY</p>
+    </footer>
+  </body>
 </html>
