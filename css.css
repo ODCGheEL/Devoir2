@@ -6,6 +6,7 @@ body {
     text-align: center;
     background-image: url(https://sqala.ma/wp-content/uploads/2021/04/Mosaic-La-Sqala-BG.png);
 } 
+/* food type */
 #food_type {
     font-family: sans-serif;
 }
@@ -16,7 +17,7 @@ body {
     color: #F5AE00;
     font-weight: 900;
 }  
-
+/* Titre de section */
 #section_title {
     font-family: "Caveat Brush", cursive;
     font-size: 42px;
@@ -28,12 +29,12 @@ body {
     color: #944127;
 
 }
-
+/* opening time */
 #open_time {
     color: #944127;
     font-weight: bold;
 }
-
+/* notre carte button */
 button {
     transition: all .5s ease;
     color: #186ab1;
@@ -52,7 +53,7 @@ button:hover {
     background-color: #186ab1;
     cursor: pointer;
 }
-
+/* gallery section */
 #gallery_img {
     display: flex;
     justify-content: space-between;
