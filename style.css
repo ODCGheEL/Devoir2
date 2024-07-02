@@ -182,11 +182,15 @@ button:hover {
 }
 .Events {
   font-family: "Caveat Brush", cursive;
+  font-size: 3rem;
 }
 .contcat {
   display: flex;
   gap: 20vw;
+  justify-content: center;
+  align-items: center;
 }
+/* form validation styling */
 input {
   padding: 10px;
   border: 2px solid #ccc;
@@ -206,7 +210,16 @@ form {
 form label {
   font-size: 10px;
 }
-/* test nav */
+.error-p{
+  display: none;
+  
+}
+.error-p-active{
+  display: inline-block;
+  font-size: 12px;
+  color: red;
+}
+/* form validation styling */
 
 /* nos cartes + gallerie styling */
 /* food type */
