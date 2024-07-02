@@ -11,7 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="script.js" />
+    <link rel="stylesheet" href="styles.css" />
     <title>AL SQALA</title>
     <script src="script.js" defer></script>
   </head>
@@ -78,8 +78,8 @@
       </h3>
       <p>
         <strong>
-          Fondé en 2002 et situé derrière les remparts de l’ancienne médina dans
-          un bastion fortifié du XVII ème siècle,
+          Fondé en 2002 et situé derrière les remparts de l’ancienne médina
+          dans un bastion fortifié du XVII ème siècle,
         </strong>
         le restaurant-café maure est ouvert tous les jours de la semaine.
       </p>
@@ -97,6 +97,9 @@
       </p>
       <img src="img\img-Sqala.jpg" alt="La sqala image" />
     </section>
+    
+
+    
 
     <img src="img\Mosaic-La-Sqala.png" alt="" class="mosaic" />
     <!--Nos Carte section-->
@@ -115,7 +118,7 @@
             19h</strong
           >
         </p>
-        <button>NOTRE CARTE</button>
+        <a href="https://sqala.ma/wp-content/uploads/2022/07/Pdj-Gou%CC%82ter-Web.pdf" target="_blank"><button>NOTRE CARTE</button></a>
       </div>
       <img
         src="https://sqala.ma/wp-content/uploads/2021/03/Calque-9-form-600x10.png"
@@ -130,7 +133,7 @@
         <p id="open_time">
           <strong>7J / 7, Déjeuner et Dîner de Midi à 23h</strong>
         </p>
-        <button>NOTRE CARTE</button>
+        <a href="https://sqala.ma/wp-content/uploads/2022/07/De%CC%81jeuner-Diner.pdf" target="_blank"><button>NOTRE CARTE</button></a>
       </div>
       <img
         src="https://sqala.ma/wp-content/uploads/2021/03/Calque-9-form-600x10.png"
@@ -143,7 +146,7 @@
           alt="carte_img"
         />
         <p></p>
-        <button>NOTRE CARTE</button>
+        <a href="https://sqala.ma/wp-content/uploads/2022/07/Desserts-Boissons.pdf" target="_blank"><button>NOTRE CARTE</button></a>
       </div>
       <img
         src="https://sqala.ma/wp-content/uploads/2021/03/Calque-9-form-600x10.png"
@@ -159,8 +162,8 @@
       <img src="img\img-1-1024x682.png" alt="La sqala image" />
       <p>
         <strong>
-          La Sqala accueille vos conférences, rencontres d’affaires et
-          évènements familiaux.
+          La Sqala accueille vos conférences, rencontres d’affaires et évènements
+          familiaux.
         </strong>
       </p>
       <a
@@ -172,7 +175,7 @@
     <!-- RESERVATION -->
 
     <!-- video -->
-
+    
     <iframe
       width="1200"
       height="900"
@@ -219,25 +222,30 @@
         <a href="tel:+212522260960"><button>NOUS APPELER</button></a>
       </div>
       <div>
-        <form action="" id="contact-form">
-          <div class="form-group">
-            <label for="name">Your Name</label><br />
-            <input type="text" id="name" name="name" placeholder="name" />
-            <p class="error-p"></p>
-          </div>
-          <br />
-          <div class="form-group">
-            <label for="email">Your Email</label><br />
-            <input type="email" id="email" name="email" placeholder="email" />
-            <p class="error-p"></p>
-          </div>
-          <br />
-          <div class="form-group">
-            <label for="Subject">Subject</label><br />
-            <input type="text" id="Subject" placeholder="Subject" />
-            <p class="error-p"></p>
-          </div>
-          <br />
+        <form action="">
+          <label for="name">Your Name</label><br />
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="name"
+          /><br />
+          <label for="email">Your Email</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="email"
+          /><br />
+          <label for="Subject">Subject</label><br />
+          <input
+            type="text"
+            id="Subject"
+            required
+            placeholder="Subject"
+          /><br />
           <label for="texte">Your message (optional)</label><br />
           <textarea
             name="msg"
@@ -245,9 +253,9 @@
             cols="50"
             rows="15"
             placeholder="contacter-nous"
-          ></textarea>
-          <br />
-          <button type="submit">Submit</button>
+          ></textarea
+          ><br />
+          <button>Submit</button>
         </form>
       </div>
     </section>
